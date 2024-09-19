@@ -4,6 +4,7 @@
 
 #ifndef LINKEDLIST_H
 #define LINKEDLIST_H
+#include <vector>
 
 class NodeLL {
 private:
@@ -30,6 +31,6 @@ public:
     void append(int valo);
     void deleteNode(int posicion);
 
+    int search(const std::vector<int> &array, int number);
 };
-#include "LinkedList.cpp"
 #endif //LINKEDLIST_H

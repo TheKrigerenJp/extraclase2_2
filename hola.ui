@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>MainWindow</class>
+    <widget class="QMainWindow" name="MainWindow">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>900</width>
+                <height>650</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>Análisis de Algoritmos</string>
+        </property>
+        <widget class="QWidget" name="centralwidget">
+            <property name="stylesheet">
+                <string notr="true">background-color: #282828;</string>
+            </property>
+
+            <widget class="QLabel" name="prueba">
+                <property name="geometry">
+                    <rect>
+                        <x>360</x>
+                        <y>120</y>
+                        <width>150</width>
+                        <height>25</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string/>
+                </property>
+            </widget>
+
+            <widget class="QWidget" name="verticalLayoutWidget">
+                <property name="geometry">
+                    <rect>
+                        <x>50</x>
+                        <y>180</y>
+                        <width>800</width>
+                        <height>450</height>
+                    </rect>
+                </property>
+                <property name="stylesheet">
+                    <string notr="true">background-color: #383838;</string>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout"/>
+            </widget>
+
+            <!-- Botones modificados con nuevos tamaños de texto, colores y posiciones -->
+            <widget class="QPushButton" name="bubbleSortButton">
+                <property name="geometry">
+                    <rect>
+                        <x>50</x>
+                        <y>20</y>
+                        <width>130</width>
+                        <height>40</height>
+                    </rect>
+                </property>
+                <property name="stylesheet">
+                    <string notr="true">
+                        background-color: #006600;
+                        color: #ffffff;
+                        font-size: 16px;
+                        font-weight: bold;
+                    </string>
+                </property>
+                <property name="text">
+                    <string>Bubble Sort</string>
+                </property>
+            </widget>
+
+            <widget class="QPushButton" name="selectionSortButton">
+                <property name="geometry">
+                    <rect>
+                        <x>190</x>
+                        <y>20</y>
+                        <width>130</width>
+                        <height>40</height>
+                    </rect>
+                </property>
+                <property name="stylesheet">
+                    <string notr="true">
+                        background-color: #006600;
+                        color: #ffffff;
+                        font-size: 16px;
+                        font-weight: bold;
+                    </string>
+                </property>
+                <property name="text">
+                    <string>Selection Sort</string>
+                </property>
+            </widget>
+
+            <widget class="QPushButton" name="mergeSortButton">
+                <property name="geometry">
+                    <rect>
+                        <x>330</x>
+                        <y>20</y>
+                        <width>130</width>
+                        <height>40</height>
+                    </rect>
+                </property>
+                <property name="stylesheet">
+                    <string notr="true">
+                        background-color: #006600;
+                        color: #ffffff;
+                        font-size: 16px;
+                        font-weight: bold;
+                    </string>
+                </property>
+                <property name="text">
+                    <string>Merge Sort</string>
+                </property>
+            </widget>
+
+            <widget class="QPushButton" name="binaryTreeSearchButton">
+                <property name="geometry">
+                    <rect>
+                        <x>470</x>
+                        <y>20</y>
+                        <width>180</width>
+                        <height>40</height>
+                    </rect>
+                </property>
+                <property name="stylesheet">
+                    <string notr="true">
+                        background-color: #006600;
+                        color: #ffffff;
+                        font-size: 16px;
+                        font-weight: bold;
+                    </string>
+                </property>
+                <property name="text">
+                    <string>Binary Tree Search</string>
+                </property>
+            </widget>
+
+            <widget class="QPushButton" name="allSortedLinkedListSearchButton">
+                <property name="geometry">
+                    <rect>
+                        <x>660</x>
+                        <y>20</y>
+                        <width>220</width>
+                        <height>40</height>
+                    </rect>
+                </property>
+                <property name="stylesheet">
+                    <string notr="true">
+                        background-color: #006600;
+                        color: #ffffff;
+                        font-size: 16px;
+                        font-weight: bold;
+                    </string>
+                </property>
+                <property name="text">
+                    <string>All Sorted Linked List Search</string>
+                </property>
+            </widget>
+
+        </widget>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>

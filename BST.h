@@ -2,6 +2,9 @@
 // Created by curso on 17/09/24.
 //
 
+#ifndef BST_H
+#define BST_H
+
 class NodeBST {
 private:
     int dato;
@@ -30,8 +33,6 @@ public:
     NodeBST* getRaiz() const;
 };
 
-#include "BST.cpp"
-#ifndef BST_H
-#define BST_H
+
 
 #endif //BST_H
